@@ -38,3 +38,62 @@ nav{
     align-items: center;
     flex-wrap: wrap;
 }
+
+.nav-links {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.nav-links:hover {
+    color: var(--dark4);
+    text-decoration: underline;
+    transition: .4s;
+}
+
+.box-btn-action {
+    display: flex;
+    gap: 1rem;
+}
+
+:is(button, .link-action) {
+    padding: .6rem;
+    font-size: .9rem;
+    border-radius: 6px;
+    transition: .4s;
+}
+
+.btn-action {
+    background-color: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+}
+
+.btn-action:haver {
+    background-color: var(--dark3);
+    border: 1px solid var(--dark3);
+}
+
+.link-action {
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section {
+    padding: 4rem;
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    min-height: 650px;
+    flex-wrap: wrap;
+}
